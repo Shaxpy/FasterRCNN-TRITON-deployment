@@ -25,7 +25,9 @@ $DEEPSTREAM_DIR/samples/trtis_model_repo/faster_rcnn_inception_v2/
 $DEEPSTREAM_DIR/samples/configs/deepstream-app-trtis/
 ├── config_infer_primary_faster_rcnn_inception_v2.txt
 ├── source1_primary_faster_rcnn_inception_v2.txt
-
+```
+## Setting up the configuration files
+```bash
 - sudo cp -a /trtis_model_repo/faster_rcnn_inception_v2/config.pbtxt $DEEPSTREAM_DIR/samples/trtis_model_repo/faster_rcnn_inception_v2/
 - sudo cp -a /trtis_model_repo/faster_rcnn_inception_v2/labels.txt $DEEPSTREAM_DIR/samples/trtis_model_repo/faster_rcnn_inception_v2/
 
