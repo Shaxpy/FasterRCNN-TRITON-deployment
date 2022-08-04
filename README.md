@@ -1,5 +1,15 @@
+## About the Project
+- This is an application of TRITON Inference Server by Nvidia, wherein I am attempting to take the FasterRCNN detection model from TensorFlow Model Zoo and create a DeepStream pipeline to deploy this model on an NVIDIA GPU for object detection.
+- This shall be deployed having optimizations that you can leverage to improve application performance for object detection
+- DeepStream is a toolkit to build scalable AI solutions for streaming video. You can take peruse another DL model from a framework of your choice and directly run inference on streaming video with it.
+
+### Flow of Triton
+
+1. <span dir="">Setting up my own Triton inference server on Ubuntu 20.04</span>
+2. <span dir="">Write a client-side python script that can communicate with the inference server to send requests</span>
 
 ### Install Deepstream
+- I have written all the commands below, necessary to setup the Deepstream app in few minutes!
 ```bash
 - wget https://developer.nvidia.com/deepstream-6.1_6.1.0-1_amd64deb
 - sudo apt-get install ./deepstream-6.1_6.1.0-1_amd64.deb 
