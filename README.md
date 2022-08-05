@@ -56,5 +56,5 @@ $DEEPSTREAM_DIR/samples/configs/deepstream-app-trtis/
 
 
 ### References 
-- https://developer.nvidia.com/blog/deploying-models-from-tensorflow-model-zoo-using-deepstream-and-triton-inference-server/
+- https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Overview.html
 - https://github.com/NVIDIA-AI-IOT/deepstream_triton_model_deploy
