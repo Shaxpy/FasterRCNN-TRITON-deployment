@@ -1,5 +1,5 @@
 ## About the Project
-- This is an application of TRITON Inference Server by Nvidia, wherein I am attempting to take the FasterRCNN detection model from TensorFlow Model Zoo and create a DeepStream pipeline to deploy this model on an NVIDIA GPU for object detection.
+- This is an application of TRITON Inference Server by Nvidia, wherein I am attempting to take the YOLO detection model from TensorFlow Model Zoo and create a DeepStream pipeline to deploy this model on an NVIDIA GPU for object detection.
 - This shall be deployed having optimizations that you can leverage to improve application performance for object detection
 - DeepStream is a toolkit to build scalable AI solutions for streaming video. You can use another DL model from a framework of your choice and directly run inference on streaming video with it.
 
